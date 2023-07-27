@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "kouroshmoshrefi/laravel-otp",
+    "description": "A simple way to manage otp codes using TOTP.",
     "keywords": [
-        ":vendor_name",
+        "Kouroshmoshrefi",
         "laravel",
-        ":package_slug"
+        "laravel-otp"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/kouroshmoshrefi/laravel-otp",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Kourosh Moshrefi",
+            "email": "kouroshmoshrefi@hotmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Kouroshmoshrefi\\LaravelOtp\\": "src/",
+            "Kouroshmoshrefi\\LaravelOtp\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Kouroshmoshrefi\\LaravelOtp\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Kouroshmoshrefi\\LaravelOtp\\LaravelOtpServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelOtp": "Kouroshmoshrefi\\LaravelOtp\\Facades\\LaravelOtp"
             }
         }
     },
