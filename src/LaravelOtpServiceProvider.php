@@ -2,9 +2,9 @@
 
 namespace Kouroshmoshrefi\LaravelOtp;
 
+use Kouroshmoshrefi\LaravelOtp\Commands\LaravelOtpCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Kouroshmoshrefi\LaravelOtp\Commands\LaravelOtpCommand;
 
 class LaravelOtpServiceProvider extends PackageServiceProvider
 {
